@@ -3,7 +3,7 @@
 
 #Page Design Javascript File URLs
 --------------------------------------------
-
+<pre>
   #APP_IMAGES#jquery-3.5.1.js
   #APP_IMAGES#jquery.dataTables.min.js
   #APP_IMAGES#dataTables.buttons.min.js
@@ -11,10 +11,10 @@
   #APP_IMAGES#pdfmake.min.js
   #APP_IMAGES#vfs_fonts.js
   #APP_IMAGES#buttons.html5.min.js
-  
+</pre>
 #Function and Global Variable Declaration
 ---------------------------------------------
-
+<pre>
 /******* Customize Font ********/
 pdfMake.fonts = {
     Roboto: {
@@ -48,7 +48,7 @@ apex.jQuery("#example").on( "apexafterrefresh", function() {
         buttons: ['csv', 'excel', 'pdf', 'print']
     } );
 });
-
+</pre>
 
 #CSS File URLs
 -------------------------------------------
@@ -58,6 +58,7 @@ https://cdn.datatables.net/buttons/2.0.1/css/buttons.dataTables.min.css
 
 #Inline CSS
 -----------------------------------------
+<pre>
 #example input{
     background: #ffffff !important;
 }
@@ -73,6 +74,7 @@ table.dataTable thead td {
     margin-top: 35px;
 }
 
+</pre>
 #Region Static ID
 --------------------------
 write: example
