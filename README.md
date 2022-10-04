@@ -52,8 +52,10 @@ apex.jQuery("#example").on( "apexafterrefresh", function() {
 
 #CSS File URLs
 -------------------------------------------
+<pre>
 https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css
 https://cdn.datatables.net/buttons/2.0.1/css/buttons.dataTables.min.css
+</pre>
 
 
 #Inline CSS
